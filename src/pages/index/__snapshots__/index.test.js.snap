@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> shallow HomePage 1`] = `
+<Component
+  className="index"
+>
+  Hello world!
+</Component>
+`;
