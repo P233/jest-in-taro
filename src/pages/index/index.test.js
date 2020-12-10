@@ -12,7 +12,7 @@ describe("<HomePage />", () => {
   });
 
   it("render HomePage", () => {
-    const wrapper = mount(<HomePage />);
-    expect(wrapper.find(".index").text()).toBe("Hello world!");
+    const wrapper = render(<HomePage />);
+    expect(wrapper.hasClass("index")).toBe(true);
   });
 });
